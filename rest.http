@@ -1,0 +1,20 @@
+
+#### login Route
+POST http://localhost:5556/auth/login
+Content-Type: application/json
+
+{
+  "email": "justice33451e440@gmail.com",
+  "password": "2345"
+}
+
+
+
+#### register Route
+POST http://localhost:5556/auth/register
+Content-Type: application/json
+
+{
+  "email": "justice33451e440@gmail.com",
+  "password": "2345"
+}
