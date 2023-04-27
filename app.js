@@ -44,6 +44,4 @@ app.use((err, req, res, next) => {
   })
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port 5556`);
-})
+app.listen(PORT, () =>  console.log(`Server running on port 5556`))
