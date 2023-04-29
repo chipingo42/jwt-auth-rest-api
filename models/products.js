@@ -22,7 +22,7 @@ const Product = mongoose.model('Products', {
   },
   image: {
     type: String,
-    required: false
+    required: false,
   },
 })
 
